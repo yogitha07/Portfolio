@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-lg
+}
+
+.bg-primary {
+  background: #604649; /* Cello */
+}
+
+.bg-secondary {
+  background: #e8d0c1; /* Mauve */
+}
+
+.bg-accent {
+  background: #AFA692; /* Turquoise Blue */
+}
+
+.text-accent {
+  color:#D9906D; /* Turquoise Blue */
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-primary text-white duration-500;
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #ffb774;
+}
+
+
+/* In a separate CSS file or using a CSS-in-JS solution */
+.hero {
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* hero */
+h1 {
+  font-family: 'Pacifico',;
+  line-height: 1.5 !important;
+}
+
+
+
+.App {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  min-height: 100vh;
+}
+
+.about {
+  color : rgba(92, 0, 15, 0.973);
+}
+
+.projectitem {
+
+  background: #AFA692;
+}
+
+.projects {
+
+  background: #f3b092;
+  color: whitesmoke;
+
+}
+
+.projectdescription {
+  background: #976f73;
+}
+
+.contact {
+  background: #3b3f6d;
+}
